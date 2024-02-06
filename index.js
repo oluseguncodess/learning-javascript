@@ -9,3 +9,6 @@ var name = "name";
 // This is used to display results on the console. 
 
 console.log (name);
+
+// functions 
+
