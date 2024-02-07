@@ -20,7 +20,15 @@ function addition() {
 
     var c = a+b;
 
-    return c;
 }
 
 console.log(addition);
+
+// concatenation
+
+// This is joining together of words to form a sentence
+
+var age = 12;
+var username = "blaze";
+
+console.log("Hey guys, i'm " + age + " years old. My username is " + username);
