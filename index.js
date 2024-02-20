@@ -1,8 +1,14 @@
 // variables 
 
 // Variables are ued to store data. Examples are below;
-
+let cake = "strawberry";
 var name = "name"; 
+const planet= "earth";
+
+// arrays 
+// Arrays are used to store/hold multiple values
+
+let order = ["first_value", "second_value", "third_value"];
 
 // Console Log
 
@@ -19,7 +25,6 @@ function addition() {
     var b = 3;
 
     var c = a+b;
-
 }
 
 console.log(addition);
