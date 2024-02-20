@@ -1,14 +1,23 @@
 // variables 
 
 // Variables are ued to store data. Examples are below;
+
+// 
 let cake = "strawberry";
+
+// 
 var name = "name"; 
-const planet= "earth";
+
+// const is used for variables that are not going to be reassigned.
+const habitablePlanet= "earth"; 
 
 // arrays 
 // Arrays are used to store/hold multiple values
 
 let order = ["first_value", "second_value", "third_value"];
+
+// HTML DOM
+// This stands for 'Document Object Model'. It's a way of accessing html elements using Javascript
 
 // Console Log
 
