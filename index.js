@@ -11,7 +11,7 @@ var name = "name";
 // const is used for variables that are not going to be reassigned.
 const habitablePlanet= "earth"; 
 
-// arrays 
+// Arrays 
 // Arrays are used to store/hold multiple values
 
 let order = ["first_value", "second_value", "third_value"];
@@ -29,11 +29,8 @@ console.log (name);
 
 // Functions are tools that allows you to run sections of code at specific times
 
-function addition() {
-    var a = 2;
-    var b = 3;
-
-    var c = a+b;
+function functionName(params) {
+    
 }
 
 console.log(addition);
