@@ -33,7 +33,9 @@ function functionName(params) {
     
 }
 
-console.log(addition);
+// comments - this is commenting out code so it's not viewed as code by the editor
+
+// Properties in Javascript 
 
 // concatenation
 
