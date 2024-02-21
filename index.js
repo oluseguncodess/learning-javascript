@@ -27,7 +27,7 @@ console.log (name);
 
 // functions 
 
-// Functions are used to perform a task concurently 
+// Functions are tools that allows you to run sections of code at specific times
 
 function addition() {
     var a = 2;
