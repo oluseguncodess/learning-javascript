@@ -23,7 +23,7 @@ let order = ["first_value", "second_value", "third_value"];
 
 // This is used to display results on the console. 
 
-console.log (name);
+// console.log (name);
 
 // functions 
 
@@ -58,10 +58,12 @@ const footballer = {
     height: 5.5
 }
 
+console.log(footballer);
+
 // concatenation
 // This is joining together of words to form a sentence
 
 var age = 12;
 var username = "blaze";
 
-console.log("Hey guys, i'm " + age + " years old. My username is " + username);
+// console.log("Hey guys, i'm " + age + " years old. My username is " + username);
