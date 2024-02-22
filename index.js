@@ -35,10 +35,30 @@ function functionName(params) {
 
 // comments - this is commenting out code so it's not viewed as code by the editor
 
-// Properties in Javascript 
+/*
+Properties in Javascript 
+This are used to perform specific task based on a action. 
+*/
+
+/*
+List of functions include;
+1. Onclick Property - used to detect a click. */
+// e.g value.onclick = action to be carried out 
+// 2.) innerText - used to access or change the text of a selected element 
+
+
+// Escape character code
+// backslash - used to write double quotes in a string
+
+
+//Objects - these are used t store/hold multiple values that can be gotten through a property and a key.  
+const footballer = {
+    name: "Ade",
+    age: 28,
+    height: 5.5
+}
 
 // concatenation
-
 // This is joining together of words to form a sentence
 
 var age = 12;
