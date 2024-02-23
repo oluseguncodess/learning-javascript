@@ -58,10 +58,29 @@ const footballer = {
     height: 5.5
 }
 
-console.log(footballer);
+// console.log(footballer);
+
+// Conditionals in Javascript.
+
+// These are if/else statements used to choose between two options based on a condition. 
 
 // concatenation
 // This is joining together of words to form a sentence
+
+// Variable assignemnts 
+//  You can reassign values of variables and can increment or decrement variable values
+let money = 100;
+
+// reassign value
+money += 5; // money = 105
+
+// increment and decrement
+// decrement
+money --; // money = 99 
+
+// increment
+money ++; // money = 100
+
 
 var age = 12;
 var username = "blaze";
