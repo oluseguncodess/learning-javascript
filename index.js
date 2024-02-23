@@ -14,8 +14,10 @@ const habitablePlanet= "earth";
 // Arrays 
 // Arrays are used to store/hold multiple values
 
-let order = ["first_value", "second_value", "third_value"];
-
+let order = ["first_value", "second-value", "third_value"];
+order.length; // -- find out the number of items in an array.
+order.push(); // -- add new items to an array
+order.shift(); // This takes the element in an array`
 // HTML DOM
 // This stands for 'Document Object Model'. It's a way of accessing html elements using Javascript
 
@@ -58,8 +60,6 @@ const footballer = {
     height: 5.5
 }
 
-// console.log(footballer);
-
 // Conditionals in Javascript.
 
 // These are if/else statements used to choose between two options based on a condition. 
@@ -86,3 +86,12 @@ var age = 12;
 var username = "blaze";
 
 // console.log("Hey guys, i'm " + age + " years old. My username is " + username);
+
+
+
+
+
+
+// testing code area 
+
+
