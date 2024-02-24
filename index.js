@@ -36,7 +36,7 @@ function functionName(params) {
 }
 
 // comments - this is commenting out code so it's not viewed as code by the editor
-
+// /* */ - is used to comment out multiple lines of code.
 /*
 Properties in Javascript 
 This are used to perform specific task based on a action. 
