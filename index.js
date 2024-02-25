@@ -2,7 +2,7 @@
 
 // Variables are ued to store data. Examples are below;
 
-// 
+// this is a variable that can be re-assigned
 let cake = "strawberry";
 
 // 
