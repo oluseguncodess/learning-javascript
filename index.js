@@ -11,6 +11,19 @@ var name = "name";
 // const is used for variables that are not going to be reassigned.
 const habitablePlanet= "earth"; 
 
+/* 
+Mathetimatical expressions
+
+=== same as
+= assignment operator
++  addition
+- subtraction
+* multiplication
+/ division
+% - modulus
+
+*/
+
 // Arrays 
 // Arrays are used to store/hold multiple values
 
