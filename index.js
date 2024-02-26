@@ -28,7 +28,12 @@ condition ? IfExpressionIsTrue : If ExpressionIsFalse
 Logical Operators. 
 
 || - OR
+&& - AND
 
+Loops 
+Loops are used to perform task over an iteration.
+
+For loops are used to perform a task a specific amount of time and while loops are used to perform a tasks until a condition is met
 */
 
 // Arrays 
