@@ -48,7 +48,9 @@ e.g for loop - for (a; b; c;) {
 let order = ["first_value", "second-value", "third_value"];
 order.length; // -- find out the number of items in an array.
 order.push(); // -- add new items to an array
-order.shift(); // This takes the element in an array`
+order.shift(); // This takes the element in an array
+order.pop(); // removes the element and returns the value
+order.includes(); // checks to see if there a value in an array
 // HTML DOM
 // This stands for 'Document Object Model'. It's a way of accessing html elements using Javascript
 
