@@ -22,6 +22,13 @@ Mathetimatical expressions
 / division
 % - modulus
 
+Tertiary Operators - if...else statements in one line
+condition ? IfExpressionIsTrue : If ExpressionIsFalse 
+
+Logical Operators. 
+
+|| - OR
+
 */
 
 // Arrays 
