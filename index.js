@@ -34,6 +34,12 @@ Loops
 Loops are used to perform task over an iteration.
 
 For loops are used to perform a task a specific amount of time and while loops are used to perform a tasks until a condition is met
+
+e.g for loop - for (a; b; c;) {
+    where a is intialization, b is condition, c is final expression.
+
+} --- while loop - while () {}
+
 */
 
 // Arrays 
