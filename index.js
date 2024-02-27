@@ -1,3 +1,4 @@
+// Data types - string, number, symbol, boolean, object, null and undefined
 // variables 
 
 // Variables are ued to store data. Examples are below;
