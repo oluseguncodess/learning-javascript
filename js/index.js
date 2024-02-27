@@ -1,4 +1,4 @@
-// Data types - string, number, symbol, boolean, object, null and undefined
+// All I learnt in the basic Javascript Course on FreeCodeCamp Website
 // variables 
 
 // Variables are ued to store data. Examples are below;
