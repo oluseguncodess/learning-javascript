@@ -7,6 +7,11 @@
 // Single-line code - //
 // multiple-line code - /* */
 
+/* 
+CONSOLE LOG - displays specified data on the console. 
+e.g console.log(data); //displays data in the console
+*/
+
 // VARIABLES
 /* 
 You store data using a variable.
@@ -28,8 +33,29 @@ The var variable works just like the let variable but is a global scope variable
 (specified in a block, can be used outside the block.)
 e.g var school; // UNASSIGNED VARIABLE 
 var school = "school"; // ASSIGNED VARIABLES
-
-REASSIGNING VARIABLES 
-e.g 
 */
+
+// JAVASCRIPT METHODS
+/*
+.length - used to determine the length of data/ number of items in an array
+e.g var food = "egusi";
+console.log(food.length); - display of 4 in the console
+*/
+
+// DAY 2 OF #100DaysOfCode
+
+/* 
+ACCESSING INDIVIDUAL STRINGS IN A VARIABLE
+
+var firstName = "Olusegun";
+
+// To access the first letter
+var firstLetter = firstName[0];//In programming, instead of counting from 1, we count from 0 (Zer0-index)
+console.log(firstLetter);
+
+// To access the last letter
+var lastLetter = firstName[firstName.length - 1] // minus because we count from zero not one
+console.log(lastLetter);
+*/
+
 
