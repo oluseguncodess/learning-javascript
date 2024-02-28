@@ -47,6 +47,8 @@ console.log(food.length); - display of 4 in the console
 /* 
 ACCESSING INDIVIDUAL STRINGS IN A VARIABLE
 
+// We access these by using bracket notation
+
 var firstName = "Olusegun";
 
 // To access the first letter
@@ -56,6 +58,21 @@ console.log(firstLetter);
 // To access the last letter
 var lastLetter = firstName[firstName.length - 1] // minus because we count from zero not one
 console.log(lastLetter);
+
+// ARRAYS 
+
+// They allow you store multiple values. These values could be different data types
+var fruits = ["Orange", 23, "Banana", 64];
+
+// Values in arrays can be accessed using bracket notation.
+var numbers = [50, 60, 70];
+numbers[0]; // 50
+
+// We can modify values in arrays using bracket notation
+var numbers = [50, 60, 70];
+numbers[1] = 55;
+console.log(numbers[1]); // 50
 */
+
 
 
