@@ -35,13 +35,6 @@ e.g var school; // UNASSIGNED VARIABLE
 var school = "school"; // ASSIGNED VARIABLES
 */
 
-// JAVASCRIPT METHODS
-/*
-.length - used to determine the length of data/ number of items in an array
-e.g var food = "egusi";
-console.log(food.length); - display of 4 in the console
-*/
-
 // DAY 2 OF #100DaysOfCode
 
 /* 
@@ -73,6 +66,19 @@ var numbers = [50, 60, 70];
 numbers[1] = 55;
 console.log(numbers[1]); // 50
 */
+
+// JAVASCRIPT METHODS
+/*
+.length - used to determine the length of data/ number of items in an array
+e.g var food = "egusi";
+console.log(food.length); - display of 4 in the console
+*/
+
+// JAVASCRIPT FUNCTIONS 
+/*
+array.push() - this functions pushes a value to an array
+*/
+
 
 
 
