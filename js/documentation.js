@@ -79,6 +79,7 @@ console.log(food.length); - display of 4 in the console
 array.push() - pushes a value to an array
 array.pop() - removes the last value in an array and returns it
 array.includes() - checks an array to see if a specified value is in there
+array.shift() - removes the first element in an array
 */
 
 
