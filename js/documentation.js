@@ -67,6 +67,38 @@ numbers[1] = 55;
 console.log(numbers[1]); // 50
 */
 
+
+//FUNCTIONS 
+
+/* 
+Functions allow use to create reuseable code 
+
+// CREATING A FUNCTION
+function nameOfFunction (parameter) {
+    // CODE
+}
+
+// CALLING A FUNCTION
+nameOfFunction();
+
+//PARAMETERS
+They are variables that act as placeholders for the values that are to be inputted in a function when it is called
+
+e.g //CREATE FUNCTION
+function nameOfFunction(parameter) {
+    console.log("My name is " + parameter);
+}
+
+// CALL FUNCTION
+nameOfFunction("olusegun");
+
+// GLOBAL SCOPE AND FUNCTIONS
+Scopes are the visibility of variables 
+
+ Global scopes means variables can be seen in your javascript code. 
+ Local scopes means variables that are only seen and accessed in a particular portion of your code.
+*/
+
 // JAVASCRIPT METHODS
 /*
 .length - used to determine the length of data/ number of items in an array
@@ -80,6 +112,11 @@ array.push() - pushes a value to an array
 array.pop() - removes the last value in an array and returns it
 array.includes() - checks an array to see if a specified value is in there
 array.shift() - removes the first element in an array
+e.g var array = [["Name", "Olusegun"], ["Age", 22], ["Height", 5.9]];
+var remove_element = array.shift();
+console.log(remove_element);
+array.unshift() - adds an element to the beginning of an array.
+
 */
 
 
