@@ -97,6 +97,21 @@ Scopes are the visibility of variables
 
  Global scopes means variables can be seen in your javascript code. 
  Local scopes means variables that are only seen and accessed in a particular portion of your code.
+
+// Global scope and local scope
+
+Examples;
+let fruit = "Pineapple"; // The variable 'fruit' here is a global variable.
+
+function fruits() {
+    let fruit = "Strawberry"; // The variable 'fruit' here is a local variable
+
+    return fruit; // returns the local variable to the function
+}
+
+console.log(fruits()); // returns the local variable(fruit) with value of "Pineapple"
+console.log(fruit); // displays global variable(fruit) with the value of "Strawberry"
+
 */
 
 // JAVASCRIPT METHODS
@@ -116,7 +131,6 @@ e.g var array = [["Name", "Olusegun"], ["Age", 22], ["Height", 5.9]];
 var remove_element = array.shift();
 console.log(remove_element);
 array.unshift() - adds an element to the beginning of an array.
-
 */
 
 
