@@ -126,6 +126,58 @@ var username = "blaze";
 
 
 
-// testing code area 
+// I KNOW IT SEEMS LIKE I'M CRAZY BUT I'LL GET BETTER AT DOCUMENTING 😂
+// FREECODECAMP BEGINNER JAVASCRIPT COURSE 
+
+// CREATING AN OBJECT 
+
+let person = {
+name: "John",
+age: 12,
+friends: ["Jake", "Jason", "Sandra", "Caleb", "Anne", "Josh"]
+};
+
+// ACCESSING OBJECT PROPERTIES
+
+//Using dot notation
+let nameDot = person.name;
+console.log(nameDot); // output == John
+
+//Using bracket notation. 
+let nameBracket = person.name;
+console.log(nameBracket); //output == John
+
+/*
+NOTE - The property name can be indented if it's two separate words
+however, you'll need to use the bracket notation to access the value
+e.g
+
+//CREATE THE OBJECT 
+*/
+let school = {
+name: "University of Lagos",  
+"weather report": "Sunny 🌞", //Two separate words as property name
+faculty: "Engineering",
+"number of students": 305 //Two separate words as property name
+};
+
+//ACCESS OBJECT PROPERTY
+
+let weatherReport = school["weather report"]; 
+console.log(weatherReport); //expected output - Sunny 🌞
+
+//UPDATE OBJECT PROPERTIES 
+
+//Change the 'weather report' property value to 'Windy 💨'
+
+weatherReport = "Windy 💨"; // reassign weatherReport variable
+console.log(weatherReport); //expected output - Windy 💨
+
+
+
+
+
+
+
 
 

@@ -151,6 +151,16 @@ switch (expression) {
 // JAVASCRIPT OBJECTS
 
 /*
+Javascript objects are used to store data. They are like arrays 
+except you use properties rather than index's to access data.
+
+e.g;
+const objectName = {
+  key1: value1,
+  key2: value2,
+  // Additional key-value pairs
+};
+
 
 */ 
 
