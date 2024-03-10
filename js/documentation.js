@@ -114,6 +114,46 @@ console.log(fruit); // displays global variable(fruit) with the value of "Strawb
 
 */
 
+//SIGN AND CONDITIONALS 
+
+/* 
+Conditionals are a way to check if a statement is true or not
+
+if (statement) {
+    output code/action to carry out
+} else {
+    output code/ action to carry out
+}
+
+// SWITCH STATEMENTS 
+
+switch (expression) {
+  case value1:
+    // code block executed if expression === value1
+    break;
+  case value2:
+    // code block executed if expression === value2
+    break;
+  // More cases can be added as needed
+  default:
+    // code block executed if expression does not match any case
+}
+
+
+//SIGNS
+= assignment operator - this assigns a value to a variable
+== equality opertor - this compares a value to another
+=== strict equality operator - this strictly compares a value to another
+&& AND Operator
+|| OR Operator
+*/
+
+// JAVASCRIPT OBJECTS
+
+/*
+
+*/ 
+
 // JAVASCRIPT METHODS
 /*
 .length - used to determine the length of data/ number of items in an array
@@ -132,7 +172,6 @@ var remove_element = array.shift();
 console.log(remove_element);
 array.unshift() - adds an element to the beginning of an array.
 */
-
 
 
 
