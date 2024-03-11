@@ -11,20 +11,12 @@ friends: ["Jake", "Jason", "Sandra", "Caleb", "Anne", "Josh"]
 // ACCESSING OBJECT PROPERTIES
 
 //Using dot notation
+
 let nameDot = person.name;
 console.log(nameDot); // output == John
 
 //Using bracket notation. 
-let nameBracket = person.name;
-console.log(nameBracket); //output == John
 
-/*
-NOTE - The property name can be indented if it's two separate words
-however, you'll need to use the bracket notation to access the value
-e.g
-
-//CREATE THE OBJECT 
-*/
 let school = {
 name: "University of Lagos",  
 "weather report": "Sunny 🌞", //Two separate words as property name
@@ -36,6 +28,11 @@ faculty: "Engineering",
 
 let weatherReport = school["weather report"]; 
 console.log(weatherReport); //expected output - Sunny 🌞
+
+/*
+NOTE - The property name can be indented if it's two separate words
+however, you'll need to use the bracket notation to access the property value
+*/
 
 //UPDATE OBJECT PROPERTIES 
 
