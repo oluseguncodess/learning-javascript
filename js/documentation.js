@@ -161,6 +161,7 @@ const objectName = {
   // Additional key-value pairs
 };
 
+// Delete properties - use the delete word and the property name 
 
 */ 
 
@@ -169,6 +170,7 @@ const objectName = {
 .length - used to determine the length of data/ number of items in an array
 e.g var food = "egusi";
 console.log(food.length); - display of 4 in the console
+hasOwnProperty() - used to check if an object has a property.
 */
 
 // JAVASCRIPT FUNCTIONS 
