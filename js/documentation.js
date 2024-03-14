@@ -165,6 +165,18 @@ const objectName = {
 
 */ 
 
+// LOOPS
+
+/*loops are a way you can iterate through data till a specific condition is met
+
+//Types of loops
+a.) while loops 
+b.)For loops 
+
+*/
+
+
+
 // JAVASCRIPT METHODS
 /*
 .length - used to determine the length of data/ number of items in an array
