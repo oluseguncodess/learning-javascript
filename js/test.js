@@ -1,15 +1,15 @@
-let carColors = {
-    tesla: "red",
-    toyota: "black",
-    "mercedis beanz": "grey"
-};
+// CHALLENGE: ADD NUMBERS USING FOR LOOPS
 
-function checksProperties(check) {
-    if(carColors.hasOwnProperty(check)) {
-        return carColors[check]
-    } else {
-        return "Not Found";
-    }
-}
+// function multiplyAll(arr) {
+//     let product = 1; 
 
-console.log(checksProperties("tesla "));
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = 0; j < arr[i].length; j++) {
+            
+//         }
+//     }
+    
+// }
+
+// product = multiplyAll([[1,2], [3,4], [5,6,7]]); 
+

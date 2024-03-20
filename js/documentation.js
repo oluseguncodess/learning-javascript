@@ -173,6 +173,18 @@ const objectName = {
 a.) while loops 
 b.)For loops 
 
+// WHILE LOOPS 
+ 
+while(known condition) {
+  code;
+}
+
+//FOR LOOPS
+
+for(initialization; condition; expression) {
+  
+}
+
 */
 
 
