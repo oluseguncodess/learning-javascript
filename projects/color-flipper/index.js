@@ -34,11 +34,3 @@ button.addEventListener("click", function() {
 
 
 });
-
-
-
-
-
-
-
-

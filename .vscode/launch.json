@@ -9,7 +9,7 @@
             "type": "firefox",
             "request": "launch",
             "name": "Launch Firefox against localhost",
-            "url": "http://127.0.0.1:3000/index.html",
+            "url": "http://127.0.0.1:3002/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
