@@ -182,9 +182,28 @@ while(known condition) {
 //FOR LOOPS
 
 for(initialization; condition; expression) {
-  
+  code
+}; 
+
+//Do while loop - executes code before checking for condition
+
+do {
+  code
+} while(condition)
+
+//TERTIARY OPERATOR
+
+syntax - condition ? statement-if-true : statement-if-false
+
+// 
+
+// USING ARROW FUNCTIONS 
+//fancy way of writing anonymous functions
+anonymous functions (before) = function() {
+
 }
 
+anonymous function (after) = () =>  
 */
 
 
@@ -195,6 +214,8 @@ for(initialization; condition; expression) {
 e.g var food = "egusi";
 console.log(food.length); - display of 4 in the console
 hasOwnProperty() - used to check if an object has a property.
+Object.freeze () - used to freeze an object so you don't easily mutate it.
+concat() - can be used to concatenate two arrays.
 */
 
 // JAVASCRIPT FUNCTIONS 
