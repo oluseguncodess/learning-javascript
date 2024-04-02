@@ -204,6 +204,12 @@ anonymous functions (before) = function() {
 }
 
 anonymous function (after) = () =>  
+
+//STRING INTERPOLATION 
+This is a way of combining strings and variables together. 
+
+you use `` instead of "" or ''. With it you can also write multiple lines of code at a go!
+you use ${variable} to add variables 
 */
 
 
@@ -228,6 +234,14 @@ e.g var array = [["Name", "Olusegun"], ["Age", 22], ["Height", 5.9]];
 var remove_element = array.shift();
 console.log(remove_element);
 array.unshift() - adds an element to the beginning of an array.
+.reduce() - this reduces an array. It takes a callback function evaluation
+evaluates it to the next item in an array
+
+
+// Javacsript Operators 
+rest operator - ...variable - this converts any argument into an array.
+spread variable - [...variable] - this expands elements of an array
+
 */
 
 
