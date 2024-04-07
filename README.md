@@ -18,6 +18,6 @@ I am open to feedback, suggestions, and collaboration from the community. If you
 
 ## Contact
 
-If you have any questions or would like to connect, you can reach me at [olusegunbamgbelu755@gmail.com](mailto:your-email@example.com).
+If you have any questions or would like to connect, you can reach me at [Gmail](olusegunbamgbelu755@gmail.com)
 
 Happy coding!
