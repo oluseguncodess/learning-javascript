@@ -78,6 +78,8 @@ String interpolation allows combining strings and variables together using backt
 
 It's a way of manipulating HTML elements using Javascript. 
 
+![image of a dom tree](/images/image.gif)
+
 ## Methods of manipulation 😈
 
 ### Create and remove html elements
@@ -89,12 +91,12 @@ It's a way of manipulating HTML elements using Javascript.
 #### To access an attribute 
 * `selecetdDOMElement.attributes` - get a list of attribute(s) you can select from
 
-`selectedDomElement.className` - get every class attribute 
+* `selectedDomElement.className` - get every class attribute 
 
-`element.setAttribute(’attribute’, ‘content’);` - set an attribute
+* `element.setAttribute(’attribute’, ‘content’);` - set an attribute
 
-`element.removeAttribute(’attribute’);` - delete an attribute
+* `element.removeAttribute(’attribute’);` - delete an attribute
 
-`selectedDOMElement.getAttribute(”attribute”);` - get an attribute 
+* `selectedDOMElement.getAttribute(”attribute”);` - get an attribute 
 
 ### Modify HTML classes
