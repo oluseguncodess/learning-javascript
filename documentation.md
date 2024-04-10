@@ -87,7 +87,7 @@ It's a way of manipulating HTML elements using Javascript.
 ### Manipulate HTML attributes
 
 #### To access an attribute 
-`selecetdDOMElement.attributes` - get a list of attribute(s) you can select from
+* `selecetdDOMElement.attributes` - get a list of attribute(s) you can select from
 
 `selectedDomElement.className` - get every class attribute 
 
