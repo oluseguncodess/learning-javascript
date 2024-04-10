@@ -54,6 +54,7 @@ The ternary operator provides a shorthand for if-else statements.
 - `.hasOwnProperty()`: Checks if an object has a property.
 - `Object.freeze()`: Freezes an object to prevent mutation.
 - `.concat()`: Concatenates arrays.
+- `.append()`: Adds specified content as the last child of the selected element(s)
 
 ## JavaScript Functions
 
@@ -72,3 +73,28 @@ The ternary operator provides a shorthand for if-else statements.
 ## String Interpolation
 
 String interpolation allows combining strings and variables together using backticks (\`).
+
+# DOM Manipulation
+
+It's a way of manipulating HTML elements using Javascript. 
+
+## Methods of manipulation 😈
+
+### Create and remove html elements
+`createElement(’element’);`
+`selectedDOMElement.remove();`
+
+### Manipulate HTML attributes
+
+#### To access an attribute 
+`selecetdDOMElement.attributes` - get a list of attribute(s) you can select from
+
+`selectedDomElement.className` - get every class attribute 
+
+`element.setAttribute(’attribute’, ‘content’);` - set an attribute
+
+`element.removeAttribute(’attribute’);` - delete an attribute
+
+`selectedDOMElement.getAttribute(”attribute”);` - get an attribute 
+
+### Modify HTML classes

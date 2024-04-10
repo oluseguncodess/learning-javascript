@@ -1,5 +1,12 @@
 // Here is where we test, debug and console log our javascript code!!!
 
-const person = (name, age, size ) => ({name, age, size });   
+//get all the list items 
+const listItem = document.querySelector(".list-items");
 
-console.log(person("Chidera", 19, 178));
+let active = listItem;
+
+console.log(active);
+
+
+
+
