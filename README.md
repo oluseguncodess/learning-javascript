@@ -10,7 +10,7 @@ The purpose of this repository is to document my progress, share my learnings, a
 
 - **Code Snippets:** Contains snippets of JavaScript code that I've written while practicing.
 - **Projects:** Includes various projects I've worked on to apply and solidify my understanding of JavaScript concepts.
-- **Documentation:** Documentation files containing notes, explanations, and examples of JavaScript topics I've learned.
+- **Documentation:** Documentation files containing notes, explanations, and examples of JavaScript topics I've learned. Check out [documentation js file](documentation.md) to see what i learnt and documented!
 
 ## Contribution
 
