@@ -64,7 +64,10 @@ The ternary operator provides a shorthand for if-else statements.
 - `.shift()`: Removes the first element in an array.
 - `.unshift()`: Adds an element to the beginning of an array.
 - `.reduce()`: Reduces an array using a callback function.
-
+- `.add()`: Used to adding something.
+- `remove()`: Used in removing something.
+- `contains()`: Used to check if something has something.
+ 
 ## JavaScript Operators
 
 - Rest operator: `...variable` - Converts arguments into an array.
@@ -100,3 +103,18 @@ It's a way of manipulating HTML elements using Javascript.
 * `selectedDOMElement.getAttribute(”attribute”);` - get an attribute 
 
 ### Modify HTML classes
+
+#### To access the class of an element
+`selectedDOMElement.classList;` - gives the list of classes of a selected element in an array.
+
+#### To add another class to an element
+`selectedDOMElement.classList.add("class");` - uses the `.add()` function to add class to a selected element's class attribute. 
+
+#### To remove an existing class of an element
+`selectedDOMElement.classList.remove("class)` - uses the `.remove()` function to remove class of a selected element's class attribute. 
+
+#### To check if an element has a particular class
+`selectedDOMElement.classList.contains()` - checks if a selected element has a particular class using the `.contains()` function
+
+
+
