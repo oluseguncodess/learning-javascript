@@ -159,9 +159,9 @@ They allow us to add interactive functionality to HTML elements by listening to 
 
 <details>
     <summary>- click - listens to a click</summary>
-        ````
+        ```
         element.addEventListener(”event”, function);
-        ````
+        ```
 </details>
 - mouseover - listens to the movement of a mouse
 
