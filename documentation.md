@@ -116,5 +116,26 @@ It's a way of manipulating HTML elements using Javascript.
 #### To check if an element has a particular class
 `selectedDOMElement.classList.contains()` - checks if a selected element has a particular class using the `.contains()` function
 
+### Traverse in DOM 
+
+This is a way of travelling through the DOM. However, before delving into the code to do that, i'll like to explain the difference between a node and a element in DOM.
+
+### Differences between HTML Nodes and Elements
+
+- Nodes are elements nodes, text nodes(includes whitespace) and comment nodes
+- Elements are simply element nodes
+
+#### Traverse upwards
+- `selectedDOMElement.parentNode` - gets the parent node of selected element.
+
+- `selectedDOMElement.parentElement` - gets the parent element of selected element.
+
+#### Traverse downwards
+
+- `selectedDOMElement.childNodes` - gets the child node of selected element.
+
+- `selectedDOMElement.children` - gets the child element of selected element.
+
+
 
 

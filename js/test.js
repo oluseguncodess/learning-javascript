@@ -2,5 +2,8 @@
 
 //get all the list items 
 
+const list = document.querySelector(".list-items");
+
+console.log(list.parentNode);
 
 
