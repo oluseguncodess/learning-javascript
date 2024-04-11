@@ -161,10 +161,14 @@ They allow us to add interactive functionality to HTML elements by listening to 
 <summary> "click" - listens to a click</summary>
 <code style="white-space:nowrap;">element.addEventListener(”event”, function);</code>
 </details>
-- mouseover - listens to the movement of a mouse
 
-### Javascript Methods
-- append()
+<details>
+<summary> "mouseover " - listens to the movement of a mouse</summary>
+<!-- <code style="white-space:nowrap;">element.addEventListener(”event”, function);</code> -->
+</details>
+
+
+
 
 
 
