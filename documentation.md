@@ -136,6 +136,14 @@ This is a way of travelling through the DOM. However, before delving into the co
 
 - `selectedDOMElement.children` - gets the child element of selected element.
 
+- `selectedDOMElement.firstChild`
+    
+    — gets the text of the first child node of selected element
+    
+- `selectedDOMElement.lastChild`
+    
+    — gets the text of the last child node of selected element
+
 
 
 
