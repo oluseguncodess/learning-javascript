@@ -145,6 +145,27 @@ This is a way of travelling through the DOM. However, before delving into the co
         
 - `selectedDOMElement.nextElementSibling` — gets the previous element before selected element
 
+## Event Listeners
+
+They allow us to add interactive functionality to HTML elements by listening to different events that happen on a page.
+
+**Ways of adding event-listeners**
+
+- adding it directly in the html elements
+- adding it using the addEventListener method
+
+**Events**
+
+- click - listens to a click
+    <details>
+    `element.addEventListener(”event”, function);`
+    </details>
+- mouseover - listens to the movement of a mouse
+
+### Javascript Methods
+
+-append()
+
 
 
 
