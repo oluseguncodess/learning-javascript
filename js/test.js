@@ -4,6 +4,6 @@
 
 const list = document.querySelector(".list-items");
 
-console.log(list.parentNode);
+console.log(list.childN);
 
 
