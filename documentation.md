@@ -158,7 +158,8 @@ They allow us to add interactive functionality to HTML elements by listening to 
 
 
 <details>
-    <summary>- click - listens to a click</summary>
+    <summary> "click" - listens to a click</summary>
+
         ```
         element.addEventListener(”event”, function);
         ```
