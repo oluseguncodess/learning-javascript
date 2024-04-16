@@ -54,7 +54,8 @@ The ternary operator provides a shorthand for if-else statements.
 - `.hasOwnProperty()`: Checks if an object has a property.
 - `Object.freeze()`: Freezes an object to prevent mutation.
 - `.concat()`: Concatenates arrays.
-- `.append()`: Adds specified content as the last child of the selected element(s)
+- `.append()`: Adds specified content as the last child of the selected element(s).
+- `.matches()`: determine whether or not an element matches a specific CSS selector.
 
 ## JavaScript Functions
 
@@ -166,6 +167,26 @@ They allow us to add interactive functionality to HTML elements by listening to 
 <summary> "mouseover " - listens to the movement of a mouse</summary>
 <!-- <code style="white-space:nowrap;">element.addEventListener(”event”, function);</code> -->
 </details>
+
+
+### Event Propagation
+
+This is a way to dictate how events travel through the DOM when an event occurs, reaches it's target and possibily executing further actions based on the event. 
+
+It's a great way to bring structure to event handling. 
+
+#### Phases of event propagation
+1. Capturing phase - this is the first phase of event propagation whereby an event travels from the root of the dom element to the target element when triggered. 
+
+<details>
+<summary> NOTE - event listeners can be triggered if set to capture mode.</summary>
+<code style="white-space:nowrap;">element.addEventListener("click", eventHandler, { capture: true });</code>
+</details>
+
+2. Target Phase - This is the second phase whereby the event reaches the target element on which the event was triggered.
+
+3. Bubbling Phase - This is the thired and final stage whereby the event that was triggered travels back up to the root of the DOM. It can also trigger other event listeners if they are set to bubble mode. 
+
 
 
 
