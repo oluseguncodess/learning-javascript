@@ -189,7 +189,11 @@ It's a great way to bring structure to event handling.
 
 ### Event Delegation
 
-This is a way of adding a single event listener with the same function and logic to multiple elements by attaching it to a common parent/ancestor rather than to multiple child elements. This can work because of the "bubble phase" of event propagation. 
+This is a way of adding a single event listener with the same function and logic to multiple elements by attaching it to a common parent/ancestor rather than to multiple child elements. 
+
+This can work because of the "bubble phase" of event propagation. It's more efficient and it's clean code. 
+
+
 
 
 
