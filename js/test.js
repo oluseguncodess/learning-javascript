@@ -2,8 +2,10 @@
 
 //get all the list items 
 
-const list = document.querySelector(".list-items");
+const listContainer = document.querySelector("#list-container");
 
-console.log(list.childN);
+listContainer.addEventListener("click", (e) => {
+    console.log(e.target.innerText);
+})
 
 

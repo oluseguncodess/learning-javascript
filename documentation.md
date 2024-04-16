@@ -178,14 +178,18 @@ It's a great way to bring structure to event handling.
 #### Phases of event propagation
 1. Capturing phase - this is the first phase of event propagation whereby an event travels from the root of the dom element to the target element when triggered. 
 
-<details>
-<summary> NOTE - event listeners can be triggered if set to capture mode.</summary>
-<code style="white-space:nowrap;">element.addEventListener("click", eventHandler, { capture: true });</code>
-</details>
+    <details>
+    <summary> NOTE - event listeners can be triggered if set to capture mode.</summary>
+    <code style="white-space:nowrap;">element.addEventListener("click", eventHandler, { capture: true });</code>
+    </details>
 
 2. Target Phase - This is the second phase whereby the event reaches the target element on which the event was triggered.
 
 3. Bubbling Phase - This is the thired and final stage whereby the event that was triggered travels back up to the root of the DOM. It can also trigger other event listeners if they are set to bubble mode. 
+
+### Event Delegation
+
+This is a way of adding a single event listener with the same function and logic to multiple elements by attaching it to a common parent/ancestor rather than to multiple child elements. This can work because of the "bubble phase" of event propagation. 
 
 
 
