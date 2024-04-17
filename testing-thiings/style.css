@@ -1,0 +1,65 @@
+/* General styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: black;
+    width: 70%;
+    margin: 30px auto;
+    border: 1px white solid;
+    border-radius: 4px;
+}
+
+.header h2 {
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.main-content {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-area {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.quote {
+    font-size: 1.1rem
+}
+
+.person {
+    color: red;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
+
+#new-quote {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
