@@ -1,6 +1,4 @@
 let count = 0; 
-let incrementBtn = document.querySelector("#increment-btn");
-let saveBtn = document.querySelector("#save-btn");
 
 let countEl = document.querySelector("#count-el");
 let saveEl = document.querySelector("#save-el");
