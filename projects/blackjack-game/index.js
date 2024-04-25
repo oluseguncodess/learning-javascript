@@ -27,7 +27,10 @@ function renderGame() {
     sumEl.textContent = ` Sum: ${sum}`;
 
     //display the both cards 
-    cardsEl.textContent = ` Cards: ${cards[0]} ${cards[1]}`;
+    cardsEl.textContent = "Cards: "
+    for (let i = 0; i < cards.length; i++) {
+        cardsEl.textContent += cards[i] + " ";    
+    }
 
     if(sum < 21) {
         message = "Do you want to draw a new card?";
@@ -53,14 +56,6 @@ function newCard() {
     sum += newCard
 
     renderGame();
-
-    //display the randomly generated card
-    let cardd = [];
-    for (let i = 0; i < cards.length; i++) {
-        cardd.push(cards[i]);
-    }
-    let cardToString = cardd.join(' ');
-    cardsEl.textContent = `Cards: ${cardToString}`;
 
 }
 
