@@ -15,7 +15,7 @@ h1 {
     font-style: italic;
 }
 
-.start-btn {
+button {
     color: #016f32;
     width: 150px;
     line-height: 25px;
@@ -24,4 +24,10 @@ h1 {
     padding: 5px 0;
     font-weight: bold;
     border-radius: 3px;
+    margin-top: 10px;
+}
+
+.new-card-btn {
+    display: block;
+    margin: 5px auto 0;
 }
