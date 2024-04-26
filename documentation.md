@@ -25,6 +25,12 @@ Arrays allow storing multiple values, which can be of different data types.
 
 Functions are blocks of reusable code that can be invoked as needed.
 
+Note - they can be hoisted! 
+
+Built in functions 
+- `Math.random()` - generates random numbers between 0 - 1 (not inclusive of 1)
+- `Math.floor()` - returns the largest interger
+
 ## Scope and Functions
 
 Scope defines the visibility of variables.

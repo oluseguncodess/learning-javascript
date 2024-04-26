@@ -69,6 +69,9 @@ function functionName(params) {
     
 }
 
+// Note - functions can get hoisted to the top to be used even though they don't 
+// follow the usual control flow!
+
 // comments - this is commenting out code so it's not viewed as code by the editor
 // /* */ - is used to comment out multiple lines of code.
 /*
