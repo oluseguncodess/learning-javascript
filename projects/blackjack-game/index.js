@@ -15,7 +15,14 @@ let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
 
 function getRandomCard() {
-    return 5;
+    let randomNumber = Math.floor(Math.random() * 13) + 1;
+
+    if (randomNumber === 1) {
+        return 11;
+    } else if (randomNumber >= 11){
+        return 10;
+    }
+
 }
 
 //Create a function the starts the game
@@ -50,9 +57,8 @@ function renderGame() {
 //create a function for the new card button 
 
 function newCard() {
-    console.log("Drawing a new card from the deck");
 
-    let newCard = Math.floor(Math.random() * (11 - 2 + 1)) + 2;
+    let newCard = getRandomCard();
     
     cards.push(newCard)
 
