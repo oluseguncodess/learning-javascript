@@ -6,7 +6,13 @@ let message;
 let messageEl = document.querySelector("#message-el");
 let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
+let playerEl = document.querySelector("#player-el");
+let player = {
+    name: "per",
+    chips: 145
+}
 
+playerEl.textContent = `${player.name}: $${player.chips}`;
 
 //Create a function the starts the game
 function startGame() {
@@ -31,7 +37,6 @@ function getRandomCard() {
     (randomNumber >= 11 && randomNumber <= 13) ? 10 :
     randomNumber;
 }
-
 
 function renderGame() {
 //Generate the logic for the game using if / else statements

@@ -46,6 +46,8 @@ Conditional statements are used to execute different actions based on different 
 
 JavaScript objects are used to store data using key-value pairs.
 
+Objects that have keys who's values are functions, the values can be referred to as methods. 
+
 ## Loops
 
 Loops are used to iterate through data until a certain condition is met.
