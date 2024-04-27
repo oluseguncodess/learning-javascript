@@ -1,18 +1,28 @@
-// Generate Random Numbers for each cards
-// let secondCard = Math.floor(Math.random() * 10) + 1;
-// let firstCard = Math.floor(Math.random() * 10) + 1;
-
-
-let firstCard = getRandomCard();
-let secondCard = getRandomCard();
-let cards = [firstCard, secondCard]
-let sum = firstCard + secondCard;
+let cards = []
+let sum = 0;
 let hasBlackJack = false;
-let isAlive = true;
+let isAlive = false;
 let message;
 let messageEl = document.querySelector("#message-el");
 let sumEl = document.querySelector("#sum-el");
 let cardsEl = document.querySelector("#cards-el");
+
+
+//Create a function the starts the game
+function startGame() {
+    isAlive = true;
+
+    //Generate random numbers 
+    let secondCard = getRandomCard();
+    let firstCard = getRandomCard();
+
+    //reassign the sum and cards variables 
+    cards = [firstCard, secondCard];
+    console.log(cards);
+    sum = firstCard + secondCard
+    renderGame();
+}
+
 
 function getRandomCard() {
     let randomNumber = Math.floor(Math.random() * 13) + 1;
@@ -20,13 +30,8 @@ function getRandomCard() {
     return randomNumber === 1 ? 11 : 
     (randomNumber >= 11 && randomNumber <= 13) ? 10 :
     randomNumber;
-    
 }
 
-//Create a function the starts the game
-function startGame() {
-    renderGame();
-}
 
 function renderGame() {
 //Generate the logic for the game using if / else statements
@@ -55,15 +60,15 @@ function renderGame() {
 //create a function for the new card button 
 
 function newCard() {
-
-    let newCard = getRandomCard();
+    if (isAlive === true && hasBlackJack === false) {
+        let newCard = getRandomCard();
     
-    cards.push(newCard)
+        cards.push(newCard)
 
-    sum += newCard
+        sum += newCard
 
-    renderGame();
-
+        renderGame();
+    }
 }
 
 
