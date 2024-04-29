@@ -12,7 +12,5 @@ inputBtn.addEventListener("click", () => {
 
 
 for (let i = 0; i < myLeads.length; i++) {
-    let list = document.createElement("li");
-    list.textContent += ` ${myLeads[i]}`
-    UlEl.appendChild(list);
+   undefined;
 } 
