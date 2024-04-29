@@ -10,9 +10,9 @@ inputBtn.addEventListener("click", () => {
     // console.log(myLeads);
 });
 
-//create an element in the ul element 
-
 
 for (let i = 0; i < myLeads.length; i++) {
-    console.log(myLeads[i]);
+    let list = document.createElement("li");
+    list.textContent += ` ${myLeads[i]}`
+    UlEl.appendChild(list);
 } 
