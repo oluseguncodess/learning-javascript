@@ -82,6 +82,10 @@ The ternary operator provides a shorthand for if-else statements.
 - Rest operator: `...variable` - Converts arguments into an array.
 - Spread operator: `[...variable]` - Expands elements of an array.
 
+## Javascript properties 
+
+`.value` - this can be used to set or return the value in an input field
+
 ## String Interpolation
 
 String interpolation allows combining strings and variables together using backticks (\`).
