@@ -12,5 +12,5 @@ inputBtn.addEventListener("click", () => {
 
 
 for (let i = 0; i < myLeads.length; i++) {
-   undefined;
+    UlEl.innerHTML += `<li> ${myLeads[i]}</li>`;
 } 
