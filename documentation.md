@@ -205,6 +205,17 @@ This is a way of adding a single event listener with the same function and logic
 
 This can work because of the "bubble phase" of event propagation. It's more efficient and it's clean code. 
 
+# JSON 
+
+This stands for javascript object notation.
+
+It's commonly used to exchange data to/from a web server. 
+
+When getting data from a web server, it's gotten in form of a string. You convert this data to javascript objects using `JSON.parse()` 
+
+When sending data to a web server, it has to be in string format. You can convert Javascript object to strings using `JSON.Stringify()`
+
+JSON syntax are like javascript syntax. It is however plain-text. 
 
 
 
