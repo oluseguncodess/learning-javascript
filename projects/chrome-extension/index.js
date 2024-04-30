@@ -6,11 +6,25 @@ const UlEl = document.querySelector("#ul-el");
 let myLeads = ["wwwww", "jsede"];
 // add event listener.
 inputBtn.addEventListener("click", () => {
-    myLeads.push(inputEl.value);
-    // console.log(myLeads);
+    
+    if (inputEl.value === "") {
+        alert("Input a website")
+    } else {
+        myLeads.push(inputEl.value);
+        inputEl.value = "";
+        renderLeads();
+    }
 });
 
+function renderLeads() {
+    let listItems = "";
 
-for (let i = 0; i < myLeads.length; i++) {
-    UlEl.innerHTML += `<li> ${myLeads[i]}</li>`;
-} 
+    for (let i = 0; i < myLeads.length; i++) {
+        listItems  += `<li><a href="${myLeads[i]}" target="_blank">${myLeads[i]}</a></li>`;  
+    } 
+    
+    UlEl.innerHTML = listItems
+}
+
+
+
