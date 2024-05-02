@@ -3,7 +3,9 @@ const inputBtn = document.querySelector("#input-btn");
 const inputEl = document.querySelector("#input-el");
 const UlEl = document.querySelector("#ul-el");
 
-let myLeads = ["wwwww", "jsede"];
+localStorage.setItem("myLeads", "")
+
+let myLeads = [];
 // add event listener.
 inputBtn.addEventListener("click", () => {
     

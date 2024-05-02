@@ -218,7 +218,11 @@ When sending data to a web server, it has to be in string format. You can conver
 JSON syntax are like javascript syntax. It is however plain-text. 
 
 
+# What is localStorage?
 
+This is used to create an object with key - value pairs in a web browser. 
+
+It does this permanently and doesn't change even if the browser has been closed. 
 
 
 
