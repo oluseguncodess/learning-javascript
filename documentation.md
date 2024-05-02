@@ -226,6 +226,25 @@ It does this permanently and doesn't change even if the browser has been closed.
 
 Note - Everything stored in localStorage has to be string!
 
+## Using localStorage 
+
+- `setItem(key, value)` - this is used to set the key and value in the local storage
+
+- `clear()` - used to remove all key and values in the local storage
+
+- `getItem(key)` - this is used to get a value of a key in the local storage
+
+# Truthy and Falsy values 
+
+### List of falsy values 
+- `0` 
+- `""` 
+- `null` 
+- `undefined`
+- `false`  
+- `NaN` 
+
+
 
 
 
