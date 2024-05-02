@@ -224,6 +224,8 @@ This is used to create an object with key - value pairs in a web browser.
 
 It does this permanently and doesn't change even if the browser has been closed. 
 
+Note - Everything stored in localStorage has to be string!
+
 
 
 
