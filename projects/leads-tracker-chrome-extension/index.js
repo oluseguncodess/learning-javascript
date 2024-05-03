@@ -17,15 +17,15 @@ if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage;
     render(myLeads)
 }
-const tabs = [
-    {url: "https://www.linkedin.com/in/olusegunbamgbelu/"}
-]
+
 //create an event listener for the tab button!!
 
 saveTab.addEventListener("click", () => {
-    myLeads.push(tabs[0].url)
-    localStorage.setItem("myLeads", JSON.stringify(myLeads));
-    render(myLeads);
+    chrome.tabs.query({active: true, currentWindow: true}, (tabs)=> {
+        myLeads.push(tabs[0].url);
+        localStorage.setItem("myLeads", JSON.stringify(myLeads));
+        render(myLeads)
+    })
 });
 
 // create an event listener for the input button!
