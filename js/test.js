@@ -2,10 +2,8 @@
 
 //get all the list items 
 
-const listContainer = document.querySelector("#list-container");
+class professor {
 
-listContainer.addEventListener("click", (e) => {
-    console.log(e.target.innerText);
-})
-
+    
+}
 

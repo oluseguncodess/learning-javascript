@@ -244,6 +244,17 @@ Note - Everything stored in localStorage has to be string!
 - `false`  
 - `NaN` 
 
+# Object-Oriented programming with Javascript
+This is a programming paradigm(a way of programming, using certain principles, techniques and practices for designing, structuring and implementing computer programs) based on the concepts of objects.
+
+Objects contain properties and methods.  With OOP, you can create a blue-print that multiple objects can be made out of rather than manually creating multiple object literals that have the same properties and methods!
+
+## 4 pillars of object-oriented programming  
+- Inheritance - This allows you to create a new class based on an existing class. This means we can make an object inherit the properties and methods of another object. It allows us to reuse code!
+
+- Encapsulation
+- Abstration
+- Polymorphism 
 
 
 
