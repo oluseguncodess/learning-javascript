@@ -256,8 +256,7 @@ Objects contain properties and methods.  With OOP, you can create a blue-print t
 
 - Abstration - This is a way of hiding implementation details and only revealing functionality. It's showing only required details and hiding the rest e.g hides property, shows method.
 
-- Polymorphism - 
-
+- Polymorphism - This means different forms. It's creating that have the same name but different functionality.  
 
 
 
