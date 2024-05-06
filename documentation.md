@@ -81,6 +81,7 @@ The ternary operator provides a shorthand for if-else statements.
 
 - Rest operator: `...variable` - Converts arguments into an array.
 - Spread operator: `[...variable]` - Expands elements of an array.
+- new operator: `new` - creates a new object usinf a constructor function. 
 
 ## Javascript properties 
 
@@ -258,8 +259,16 @@ Objects contain properties and methods.  With OOP, you can create a blue-print t
 
 - Polymorphism - This means different forms. It's creating that have the same name but different functionality.  
 
+## What's a constructor function?
+it's a way in which we can create several instances(objects) of a class (blueprint). It's acts as a template for creating objects. 
 
+### What does the new operator do?
+It does three things which are;
 
+- It creates a new object on a constructor function
+- It ensures that `this` variable points to the object e.g so when you put data in the constructor, it actually assigns it to the 'this' object property. 
+- Returns the object
 
-
+## Prototype and Inheritance 
+Prototypes is the way that Javascript inherits features from one another. Every object has a prototype property. 
 
