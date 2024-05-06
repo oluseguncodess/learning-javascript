@@ -252,9 +252,12 @@ Objects contain properties and methods.  With OOP, you can create a blue-print t
 ## 4 pillars of object-oriented programming  
 - Inheritance - This allows you to create a new class based on an existing class. This means we can make an object inherit the properties and methods of another object. It allows us to reuse code!
 
-- Encapsulation
-- Abstration
-- Polymorphism 
+- Encapsulation - this is the process of hiding an object's property from the outside world(other objects).  
+
+- Abstration - This is a way of hiding implementation details and only revealing functionality. It's showing only required details and hiding the rest e.g hides property, shows method.
+
+- Polymorphism - 
+
 
 
 
