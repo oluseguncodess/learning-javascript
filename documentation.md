@@ -279,3 +279,8 @@ Apparently 😂, when you create an object literal in Javascript. The object you
 This means that every object created is an instance of an Object constructor and when we create an new object, we are actually creating an instance of an object constructor. 
 
 Prototype chaining means that instances of an object can access the prototype of both it's object and the object constructor!
+
+## Javascript Class
+This is a blueprint that helps us to instanciate objects! They also make use of inheritance and prototype! It's like a better way of using constructor functions and prototype inheritance!
+
+Note - Classes cannot be hoisted. they are first class citizen(you can pass a class as an argument in a function and can return a class in a function.). Classes are executed in strict mode!

@@ -10,21 +10,16 @@ let Person = function(name, gender, birthYear) {
 
 Person.prototype.calcAge = function() {
    let age = new Date().getFullYear() - this.birthYear;
-    console.log(age);
+    // console.log(age);
 }
 
 // create an object 
 let john = new Person("John", "Male", 2001);
 john.calcAge()
-console.log(john);
+// console.log(john);
 
-let mark = {
-    name: "mark",
-    birthYear: 1999,
-    gender: "male"
-}
-
- console.log(mark.hasOwnProperty("name"));
+let arr = [3.3,5,6]
+console.log(arr);
 
 
 
