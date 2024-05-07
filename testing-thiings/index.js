@@ -1,10 +1,30 @@
-let sentence = ["Hello ", "my ", "name ", "is ", "Per"] 
-let greetingEl = document.getElementById("greeting-el")
-
-// Render the sentence in the greetingEl paragraph using a for loop and .textContent
-
-for (let i = 0; i < sentence.length; i++) {
-    greetingEl.textContent += sentence[i]; 
+//Learning Object Oriented Programming!
+let Person = function(name, gender, birthYear) {
+    this.name = name,
+    this.gender = gender,
+    this.birthYear = birthYear
 }
 
-console.log(greetingEl.textContent);
+//create a function that calculates the age of a person and
+//pass in this function into the Person constructor function as an method
+
+Person.prototype.calcAge = function() {
+   let age = new Date().getFullYear() - this.birthYear;
+    console.log(age);
+}
+
+// create an object 
+let john = new Person("John", "Male", 2001);
+john.calcAge()
+console.log(john);
+
+let mark = {
+    name: "mark",
+    birthYear: 1999,
+    gender: "male"
+}
+
+ console.log(mark.hasOwnProperty("name"));
+
+
+

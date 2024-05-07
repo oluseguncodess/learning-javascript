@@ -82,6 +82,7 @@ The ternary operator provides a shorthand for if-else statements.
 - Rest operator: `...variable` - Converts arguments into an array.
 - Spread operator: `[...variable]` - Expands elements of an array.
 - new operator: `new` - creates a new object usinf a constructor function. 
+- instanceof: - checks if something is an instance of something
 
 ## Javascript properties 
 
@@ -270,5 +271,11 @@ It does three things which are;
 - Returns the object
 
 ## Prototype and Inheritance 
-Prototypes is the way that Javascript inherits features from one another. Every object has a prototype property. 
+Prototypes is the way that Javascript inherits features(methods) from one another. Every object has a prototype property. 
 
+### Prototype chaining 
+Apparently 😂, when you create an object literal in Javascript. The object you created is also an instance(object) of an object constructor 
+
+This means that every object created is an instance of an Object constructor and when we create an new object, we are actually creating an instance of an object constructor. 
+
+Prototype chaining means that instances of an object can access the prototype of both it's object and the object constructor!
