@@ -284,3 +284,20 @@ Prototype chaining means that instances of an object can access the prototype of
 This is a blueprint that helps us to instanciate objects! They also make use of inheritance and prototype! It's like a better way of using constructor functions and prototype inheritance!
 
 Note - Classes cannot be hoisted. they are first class citizen(you can pass a class as an argument in a function and can return a class in a function.). Classes are executed in strict mode!
+
+## Getter and setter properties in Javascript
+In javascript, there are mainly two types of object properties which are data properties and accessor properties. 
+
+Data properties are those propers that are set while accessor properties are methods that set and get the properties of an object.
+
+NOTE - These methods are called properties because they are stored and accessed as properties in an object!
+
+### Types of accessor properties
+1. Getter properties - used to read an object's property value using the `get` keyword.
+2. Setter Properties - used to set an object's property value using the `set` keyword. 
+NOTE - Setter function must have a value as an argument!
+
+#### Why do we need setter and getter properties? 
+In order to hide the properties of an object from the outside world! This is what encapsulation is all about!
+
+Also, it can be used to set or add to a property afterwards like adding a calculated value.
