@@ -273,6 +273,8 @@ It does three things which are;
 ## Prototype and Inheritance 
 Prototypes is the way that Javascript inherits features(methods) from one another. Every object has a prototype property. 
 
+You can implement prototype inheritance using `Object.create()` method.
+
 ### Prototype chaining 
 Apparently 😂, when you create an object literal in Javascript. The object you created is also an instance(object) of an object constructor 
 
@@ -301,3 +303,16 @@ NOTE - Setter function must have a value as an argument!
 In order to hide the properties of an object from the outside world! This is what encapsulation is all about!
 
 Also, it can be used to set or add to a property afterwards like adding a calculated value.
+
+## what are Static methods
+These are methods that are on the class or an object. They are called directly on the class/object. They cannot be called on an instance
+
+You create a 'static method' using the `static` keyword! This would make the object not viewable in the object as it is attached just to the class and not the class instance 
+
+Instance methods are methods that are instances of a class or an object. They are called by accessing instances of an object. 
+
+## Inheritance between two classes 
+
+When creating a new class and we want it to inherit properties from another class, we use the key word `extends` and the other classes name 
+
+When creating the classe's constructor, we use the key word `super()` under the constructor to refer to the parent class so we can easily inherit it's property.
