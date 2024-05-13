@@ -1,25 +1,33 @@
-//Learning Object Oriented Programming!
-let Person = function(name, gender, birthYear) {
-    this.name = name,
-    this.gender = gender,
-    this.birthYear = birthYear
-}
+class Shape {
+    constructor(name, sides, sideLength) {
+         this.name = name
+         this.sides = sides
+         this.sideLength = sideLength
+     }
+     calcPerimeter() {
+        let perimeter = this.sides * this.sideLength;
+         console.log(perimeter);
+     }
+  
+  }
+  
+  let triangle = new Shape("triangle", 3, 3);
+  triangle.calcPerimeter()
 
-//create a function that calculates the age of a person and
-//pass in this function into the Person constructor function as an method
+  class Square extends Shape {
+    
+    constructor(sideLength) {
+        super("Square", 4)
+        this.sideLength = sideLength
+    }
+    calcArea() {
+        let area = Math.pow(this.sideLength, 2);
+        console.log(area);
+    }
+  }
 
-Person.prototype.calcAge = function() {
-   let age = new Date().getFullYear() - this.birthYear;
-    // console.log(age);
-}
-
-// create an object 
-let john = new Person("John", "Male", 2001);
-john.calcAge()
-// console.log(john);
-
-let arr = [3.3,5,6]
-console.log(arr);
-
+  let five = new Square(4);
+  five.calcArea()
 
 
+      

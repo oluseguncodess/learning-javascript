@@ -80,7 +80,7 @@ The ternary operator provides a shorthand for if-else statements.
 ## JavaScript Operators
 
 - Rest operator: `...variable` - Converts arguments into an array.
-- Spread operator: `[...variable]` - Expands elements of an array.
+- Spread operator: `[...variable]` - Expands elements of an array - https://kinsta.com/knowledgebase/spread-operator-javascript/    
 - new operator: `new` - creates a new object usinf a constructor function. 
 - instanceof: - checks if something is an instance of something
 
