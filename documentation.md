@@ -316,3 +316,6 @@ Instance methods are methods that are instances of a class or an object. They ar
 When creating a new class and we want it to inherit properties from another class, we use the key word `extends` and the other classes name 
 
 When creating the classe's constructor, we use the key word `super()` under the constructor to refer to the parent class so we can easily inherit it's property.
+
+## Javascript Sets
+Sets are objects in javascript used to store unique values that can only occur once within the set
