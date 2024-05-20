@@ -321,3 +321,6 @@ When creating the classe's constructor, we use the key word `super()` under the 
 
 ## Javascript Sets
 Sets are objects in javascript used to store unique values that can only occur once within the set
+
+## Javascript Promise
+It's like an object that links producing code to consuming code. Producing code can take some time while consuming code waits for results.
