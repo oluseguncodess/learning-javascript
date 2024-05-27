@@ -34,3 +34,7 @@ class Shape {
   //Sets 
   const letters = new set();
   letters.add("a");
+
+  const tryOutThings = new Promise(function(myResolve, myReject) {
+    
+  })

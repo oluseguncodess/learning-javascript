@@ -78,6 +78,9 @@ The ternary operator provides a shorthand for if-else statements.
 - `.add()`: Used to adding something.
 - `remove()`: Used in removing something.
 - `contains()`: Used to check if something has something.
+
+## Javascript Keyword
+- `delete`: This can be used to delete for example a property in an object
  
 ## JavaScript Operators
 
