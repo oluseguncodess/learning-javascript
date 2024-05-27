@@ -52,6 +52,8 @@ Objects that have keys who's values are functions, the values can be referred to
 
 Loops are used to iterate through data until a certain condition is met.
 
+- For/in - used to loop through an object's property
+
 ## Tertiary Operator
 
 The ternary operator provides a shorthand for if-else statements.
