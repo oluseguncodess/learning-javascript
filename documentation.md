@@ -68,6 +68,7 @@ The ternary operator provides a shorthand for if-else statements.
 - `.matches()`: determine whether or not an element matches a specific CSS selector.
 - `.forEach()`: adds a function to every element in an array(doesn't create a new array)
 - `.filter()`: this separates a specified element in an array.
+- `indexOd()`: finds the location of the specified element, can take 2 parameters
 
 ## JavaScript Functions
 
