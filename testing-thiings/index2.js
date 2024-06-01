@@ -1,6 +1,14 @@
-const demo = document.querySelector("#demo")
+function hello(callback) {
+    console.log("Hello!");
+    callback()
+}
 
-const car = ["mastor", "golf", "benz"];
-const cars = car.shift()
+function goodbye() {
+    console.log("GoodBye!");
+}
 
-console.log(car);
+function leave() {
+    console.log("Leave!");
+}
+
+hello(goodbye)
