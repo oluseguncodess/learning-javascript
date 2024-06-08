@@ -54,6 +54,8 @@ Loops are used to iterate through data until a certain condition is met.
 
 - For/in - used to loop through an object's property
 
+- Do/while - does something then checks the condition
+
 ## Tertiary Operator
 
 The ternary operator provides a shorthand for if-else statements.
