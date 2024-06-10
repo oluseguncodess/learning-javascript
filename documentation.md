@@ -83,6 +83,7 @@ The ternary operator provides a shorthand for if-else statements.
 - `.add()`: Used to adding something.
 - `remove()`: Used in removing something.
 - `contains()`: Used to check if something has something.
+- `setTimeout()`: takes two parameters, a callback function, the time to be delayed in milliseconds before execcution
 
 ## Javascript Keyword
 - `delete`: This can be used to delete for example a property in an object
