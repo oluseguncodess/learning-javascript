@@ -335,4 +335,4 @@ Sets are objects in javascript used to store unique values that can only occur o
 It's like an object that links producing code to consuming code. Producing code can take some time while consuming code waits for results.
 
 ## Synchronous vs Asynchronous
-Synchronous means instructions are carried out one after the other, line by line and not in parallel. Javascript is a synchronous, single threaded programming language.
+Synchronous means instructions are carried out one after the other, line by line and not in parallel. Javascript is a synchronous, single threaded programming language. This is used mostly for API calls. 
