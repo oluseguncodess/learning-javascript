@@ -332,7 +332,7 @@ When creating the classe's constructor, we use the key word `super()` under the 
 Sets are objects in javascript used to store unique values that can only occur once within the set
 
 ## Javascript Promise
-It's like an object that links producing code to consuming code. Producing code can take some time while consuming code waits for results.
+It's like an object that links producing code to consuming code. Producing code can take some time while consuming code waits for results. In the function, you use either a promise or a reject keyword
 
 ## Synchronous vs Asynchronous
 Synchronous means instructions are carried out one after the other, line by line and not in parallel. Javascript is a synchronous, single threaded programming language. This is used mostly for API calls. 
