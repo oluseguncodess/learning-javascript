@@ -1,5 +1,7 @@
 # JavaScript Documentation
 
+Best article i've found so far on javascript --> https://javascript.info/   
+
 ## Commenting Out Code
 
 - **Single-line comment:** `//`
@@ -12,6 +14,15 @@ Variables are used to store data. There are three ways to declare a variable:
 - **let:** Block-scoped variable.
 - **const:** Constant variable, its value cannot be changed once assigned.
 - **var:** Function-scoped variable.
+
+## Increment and decrement
+It's a way of increasing and decreasing a number gradually. 
+
+To do so, you use the operands(`++, -- `) to either increase and decrease respectively.
+
+You can do this by adding the operands in front or after the variable. The difference is, add before returns the new incremented/decremented value while adding it after returns the value that was incremented/decremented.
+
+read more --> https://javascript.info/operators 
 
 ## Accessing Individual Characters in a String Variable
 
