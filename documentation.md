@@ -19,7 +19,11 @@ In JavaScript, individual characters in a string variable can be accessed using 
 
 ## Arrays
 
-Arrays allow storing multiple values, which can be of different data types.
+Arrays allow storing multiple values, which can be of different data types. They are actually objects but their main purpose is to create ordered data so you need to be careful. 
+
+To delete an whole array, you can use the `.length` method by setting it to 0. 
+
+Best article i've seen on arrays so far - https://javascript.info/array 
 
 ## Functions
 
