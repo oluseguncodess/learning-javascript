@@ -351,3 +351,6 @@ It's like an object that links producing code to consuming code. Producing code 
 
 ## Synchronous vs Asynchronous
 Synchronous means instructions are carried out one after the other, line by line and not in parallel. Javascript is a synchronous, single threaded programming language. This is used mostly for API calls. 
+
+## Object Destructuring 
+It's an assignment that allows you scope fields within an object and declare which values will be used.
