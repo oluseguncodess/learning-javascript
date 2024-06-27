@@ -354,3 +354,7 @@ Synchronous means instructions are carried out one after the other, line by line
 
 ## Object Destructuring 
 It's an assignment that allows you scope fields within an object and declare which values will be used.
+
+What it does is create variable names using the objects key name and storing the value of the created variable with the objects values. 
+
+However, it doesn't change the object's keys. 
