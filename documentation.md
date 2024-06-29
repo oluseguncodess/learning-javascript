@@ -63,6 +63,8 @@ JavaScript objects are used to store data using key-value pairs.
 
 Objects that have keys who's values are functions, the values can be referred to as methods. 
 
+To find out the properties in an object - `Object.keys(object)`
+
 ## Loops
 
 Loops are used to iterate through data until a certain condition is met.
@@ -86,6 +88,7 @@ The ternary operator provides a shorthand for if-else statements.
 - `.forEach()`: adds a function to every element in an array(doesn't create a new array) - gives a callback function.
 - `.filter()`: this separates a specified element in an array.
 - `indexOf()`: finds the location of the specified element, can take 2 parameters. it's very useful
+- `reverse()`: the reverse method can be used to reverse elements in an array. It mutates(changes) an array's order
 
 ## JavaScript Functions
 
@@ -106,7 +109,7 @@ The ternary operator provides a shorthand for if-else statements.
 ## JavaScript Operators
 
 - Rest operator: `...variable` - Converts arguments into an array.
-- Spread operator: `[...variable]` - Expands elements of an array - https://kinsta.com/knowledgebase/spread-operator-javascript/    
+- Spread operator: `[...variable]` - Expands elements of an array - https://kinsta.com/knowledgebase/spread-operator-javascript/ . One of it's usefulness is it doesn't mutate an array.     
 - new operator: `new` - creates a new object usinf a constructor function. 
 - instanceof: - checks if something is an instance of something
 
