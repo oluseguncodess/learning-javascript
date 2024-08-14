@@ -65,6 +65,8 @@ Objects that have keys who's values are functions, the values can be referred to
 
 To find out the properties in an object - `Object.keys(object)`
 
+To copy an object's property into another - `Object.assign(object, {newObject})`
+
 ## Loops
 
 Loops are used to iterate through data until a certain condition is met.

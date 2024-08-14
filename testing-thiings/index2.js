@@ -1,14 +1,3 @@
-function hello(callback) {
-    console.log("Hello!");
-    callback()
-}
+let word = "A new character line is represented as \"\\n\"."
 
-function goodbye() {
-    console.log("GoodBye!");
-}
-
-function leave() {
-    console.log("Leave!");
-}
-
-hello(goodbye)
+console.log(word);
