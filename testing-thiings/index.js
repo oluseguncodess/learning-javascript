@@ -1,40 +1,39 @@
-class Shape {
-    constructor(name, sides, sideLength) {
-         this.name = name
-         this.sides = sides
-         this.sideLength = sideLength
-     }
-     calcPerimeter() {
-        let perimeter = this.sides * this.sideLength;
-         console.log(perimeter);
-     }
-  
-  }
-  
-  let triangle = new Shape("triangle", 3, 3);
-  triangle.calcPerimeter()
+class Person {
 
-  class Square extends Shape {
-    
-    constructor(sideLength) {
-        super("Square", 4)
-        this.sideLength = sideLength
+    constructor(firstName, lastName, age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
     }
-    calcArea() {
-        let area = Math.pow(this.sideLength, 2);
-        console.log(area);
+
+    set firstName(newFirstName) {
+        if(typeof newFirstName === "string" && newFirstName.length > 0) {
+            this._firstname = newFirstName;
+        }
+        else {
+            console.error("Firstname must be a string!")
+        }
     }
-  }
 
-  let five = new Square(4);
-  five.calcArea()
+    set lastName(newLastName) {
+        if(typeof newLastName === "string" && newLastName.length > 0) {
+            this._lastName = newLastName;
+        }
+        else {
+            console.error("Lastname must be a string!")
+        }
+    }
 
+    set age(newAge) {
+        if(typeof newAge === "number" && newAge > 0) {
+            this._age= newAge;
+        }
+        else {
+            console.error("Age must be a number!")
+        }
+    }
 
-      
-  //Sets 
-  const letters = new set();
-  letters.add("a");
+}
 
-  const tryOutThings = new Promise(function(myResolve, myReject) {
-    
-  })
+const person = new Person ("Olusegun", "Bamgbelu", 23);
+console.log(person);
