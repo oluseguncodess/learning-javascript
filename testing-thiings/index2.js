@@ -1,19 +1,19 @@
-let counter = 0;
-
-let labelValue = document.getElementById("labelValue");
-
-document.getElementById("decrease").onclick = () => {
-    counter--;
-    labelValue.textContent = counter;
+class Person {
+    constructor(name, age, ...address) {
+        this.name = name;
+        this.age = age;
+        this.address = new Address(...address)
+    }
 }
 
-document.getElementById("reset").onclick = () => {
-    counter = 0;
-    labelValue.textContent = counter;
+class Address {
+    constructor(street, city, country) {
+        this.street = street;
+        this.city = city;
+        this.country = country;
+    }
 }
 
-document.getElementById("increase").onclick = () => {
-    counter++;
-    labelValue.textContent = counter;
-}
+const Person1 = new Person("Jack Sparrow", 50, "142 st", "Falaacy", "Int rigths");
 
+console.log(Person1.address.street);
