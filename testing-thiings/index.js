@@ -1,39 +1,14 @@
-class Person {
+const fruits = [{name: "apple", color: "red", calories: 95},
+                {name: "orange", color: "orange", calories: 45},
+                {name: "banana", color: "yellow", calories: 105},
+                {name: "coconut", color: "white", calories: 159},
+                {name: "pineapple", color: "yellow", calories: 37}
+];
 
-    constructor(firstName, lastName, age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    }
+const totalCalories = fruits.reduce((accumulator, currentValue) => accumulator + currentValue.calories, 0);
+console.log(`This object has ${totalCalories} calories`);
 
-    set firstName(newFirstName) {
-        if(typeof newFirstName === "string" && newFirstName.length > 0) {
-            this._firstname = newFirstName;
-        }
-        else {
-            console.error("Firstname must be a string!")
-        }
-    }
+const maxCalories = fruits.reduce((max, fruit) => fruit.calories > max.calories ? fruit : max);
 
-    set lastName(newLastName) {
-        if(typeof newLastName === "string" && newLastName.length > 0) {
-            this._lastName = newLastName;
-        }
-        else {
-            console.error("Lastname must be a string!")
-        }
-    }
+console.log(maxCalories);
 
-    set age(newAge) {
-        if(typeof newAge === "number" && newAge > 0) {
-            this._age= newAge;
-        }
-        else {
-            console.error("Age must be a number!")
-        }
-    }
-
-}
-
-const person = new Person ("Olusegun", "Bamgbelu", 23);
-console.log(person);
