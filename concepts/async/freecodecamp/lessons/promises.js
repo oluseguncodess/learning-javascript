@@ -1,8 +1,8 @@
-// A promise is a guarantee that something will happen in the future - it's an object that holds the future value of an async operation
+// // A promise is a guarantee that something will happen in the future - it's an object that holds the future value of an async operation
 
-// Promises have 3 states - pending, fulfilled and rejected
+// // Promises have 3 states - pending, fulfilled and rejected
 
-// resolve is the 'fulfilled state', while reject is the 'rejected' state 
+// // resolve is the 'fulfilled state', while reject is the 'rejected' state 
 
 // producing code below 👇🏾 - might take some time 
 const promise = new Promise((resolve, reject) => {
@@ -50,3 +50,11 @@ promise1
 .catch((error) => {
     console.log(error)
 })
+
+const promises = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve("I love you!!!!!")
+    }, 3000)
+})
+
+promises.then((value) => console.log(value))

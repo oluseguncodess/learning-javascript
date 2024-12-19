@@ -18,7 +18,7 @@ function createPost(posts) {
         setTimeout(() => {
             post.push(posts)
 
-            const error = true
+            const error = false
 
             if(!error) {
                 resolve()
