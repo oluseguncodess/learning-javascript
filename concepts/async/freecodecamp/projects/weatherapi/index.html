@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Weather API</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="app">
-        <!-- search -->
-        <div id="search-bar">
-            <input type="text" id="search-bar-input" placeholder="Search by City">
-            <button id="search-icon">
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
+      <!-- search -->
+      <div id="search-bar">
+        <input type="text" id="search-bar-input" placeholder="Search by City" />
+        <button id="search-icon">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <!-- date & city -->
+      <div id="info">
+        <p id="date"></p>
+        <h3 id="city"></h3>
+      </div>
+
+      <!-- description -->
+      <div id="description"></div>
+
+      <!-- temperature -->
+      <div id="temp"></div>
+
+      <!-- extra info -->
+       <div id="extra-info">
+        <div class="col">
+            <div class="info">
+                <h5>Highs</h5>
+                <div id="tempMax"></div>
+            </div>
         </div>
-
-        <!-- date & city -->
-         <div id="info">
-            <p id="date"></p>
-            <h3 id="city"></h3>
-         </div>
-
-         <!-- description -->
-          <div id="description"></div>
-
-          <!-- temperature -->
-           <div id="temp"></div>
+       </div>
+       <div class="col">
+        <div class="info">
+            <h5>Lows</h5>
+            <div id="tempMin"></div>
+        </div>
     </div>
-</body>
+    </div>
+  </body>
 </html>
